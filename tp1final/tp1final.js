@@ -16,7 +16,7 @@ function preload() {
   musculoso = loadSound('data/musculoso.mp3');
 
   for (let i = 0; i <= 40; i++) {
-    imagenes[i] = loadImage("data/imagen"+i+".JFIF");
+    imagenes[i] = loadImage("data/imagen"+i+".jfif");
   }
 }
 
@@ -174,3 +174,4 @@ function mousePressed() {
     return;
   }
 }
+
